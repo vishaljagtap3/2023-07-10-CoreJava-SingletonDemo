@@ -1,8 +1,6 @@
 public class Maths {
     private static Maths maths = null;
-
-    private Maths() {
-    }
+    private Maths() {}
 
     public static Maths getInstance() {
         if(maths == null) {
@@ -18,5 +16,4 @@ public class Maths {
     public int sub(int num1, int num2) {
         return num1 - num2;
     }
-
 }
